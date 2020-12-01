@@ -4,6 +4,8 @@ def line(deli)
   if(katz_deli.size == 0)
     puts "The line is currently empty."
   else 
-    katz_deli.each_with_index { |customer, index| 
+    puts "The line is currently"
+    katz_deli.each_with_index { |customer, index| puts "#{i+1}. #{deli[i]} }
+  end
       
 end  
