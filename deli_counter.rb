@@ -10,3 +10,13 @@ def line(deli)
   end
     puts out
 end  
+
+def take_a_number(deli, name)
+  puts "#{name} you are number #{deli.size} in line"
+  deli.push(name)
+  return deli
+end
+
+def now_serving(deli)
+  if(deli.size == 0)
+    puts 
