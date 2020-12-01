@@ -5,7 +5,7 @@ def line(deli)
     puts "The line is currently empty."
   else 
     puts "The line is currently"
-    deli.each_with_index { |customer, index| puts "#{index+1}. #{deli[index]}" }
+    deli.each_with_index { |customer, index| puts "#{index+1}. #{customer}" }
   end
       
 end  
